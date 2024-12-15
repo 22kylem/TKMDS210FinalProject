@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:afec4273ecfd64fd32a269e5ff4d73328f943cdab1a32c831630b2b20283ccaf
-size 226
+[package]
+name = "finalproject"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+petgraph = "0.6"
+anyhow = "1.0"
+strsim = "0.10"
+html-escape = "0.2"
+rand = "0.8"
